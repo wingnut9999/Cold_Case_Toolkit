@@ -1,0 +1,38 @@
+---
+case_id: {case_id}
+title: {title}
+status: cold / unsolved
+jurisdiction: {jurisdiction}
+location: {location}
+date_of_incident: {date_of_incident}
+victim_name: {victim_name}
+victim_age: {victim_age}
+victim_gender: {victim_gender}
+retrieval_date: {retrieval_date}
+last_updated: {last_updated}
+sources:
+{sources}
+---
+
+## Case Summary
+{case_summary}
+
+## Victim Information
+- Name: {victim_name}
+- Age: {victim_age}
+- Gender: {victim_gender}
+
+## Timeline of Events
+{timeline}
+
+## Law Enforcement Notes
+{law_enforcement_notes}
+
+## Evidence Summary
+{evidence_summary}
+
+## Discrepancies Across Sources
+{discrepancies}
+
+## Media References
+{media_references}

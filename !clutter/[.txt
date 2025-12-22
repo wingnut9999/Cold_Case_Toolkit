@@ -1,0 +1,23 @@
+[
+  {
+    "case_name": "Murder of Artemus Ogletree (Room 1046 Mystery)",
+    "year": 1935,
+    "location": "Hotel President, Kansas City, Missouri",
+    "details": "Unidentified man (alias Roland T. Owen) found beaten and stabbed in Room 1046; identity established only later as Artemus Ogletree; no suspect ever identified.",
+    "source": "Wikipedia"
+  },
+  {
+    "case_name": "Missouri River Killer",
+    "year_span": "1982–1986 (pre‑1990 portion)",
+    "location": "Kansas City metro area (victims found in Missouri River)",
+    "details": "At least several women and girls (ages 13–36) found floating in Missouri River, some with legs severed; believed to be same unidentified serial killer; still unsolved as of today.",
+    "source": "Wikipedia"
+  },
+  {
+    "case_name": "Assassination of Leon Jordan",
+    "year": 1970,
+    "location": "Kansas City, Missouri",
+    "details": "Civil‑rights leader and state representative Leon M. Jordan shot and killed outside his tavern; suspected political mob hit; no one ever charged.",
+    "source": "Wikipedia"
+  }
+]

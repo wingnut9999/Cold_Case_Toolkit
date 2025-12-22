@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Jack Stapleton",
+    "motive": "Wants Baskerville inheritance; real name is Roger Baskerville.",
+    "alibi": "Claims to be a naturalist, often out on the moor.",
+    "relation_to_victim": "Distant relative; concealed identity."
+  },
+  {
+    "name": "Mr. Barrymore",
+    "motive": "Protecting his brother-in-law, the escaped convict.",
+    "alibi": "At Baskerville Hall during the murder; caught signaling the convict.",
+    "relation_to_victim": "Household servant to Sir Charles."
+  },
+  {
+    "name": "Laura Lyons",
+    "motive": "Was misled by Stapleton, potential beneficiary of Charles\u2019s will.",
+    "alibi": "Claims she never went to the meeting with Charles.",
+    "relation_to_victim": "Acquaintance through Dr. Mortimer."
+  }
+]

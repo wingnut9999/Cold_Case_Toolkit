@@ -1,0 +1,36 @@
+---
+case_id: CC-2009-0322
+victim: Alexandra Hoyt
+date: 2009-03-22
+location: Trailhead near Pine Valley
+status: Unsolved Homicide
+tags: [cold_case, homicide, missing_person]
+---
+
+# Cold Case Report: Alexandra Hoyt
+
+## Case Summary
+- **Victim:** Alexandra Hoyt  
+- **Date:** 2009-03-22  
+- **Location:** Trailhead near Pine Valley  
+- **Status:** Unsolved homicide  
+
+## Timeline
+- 14:12 — Alexandra parks car  
+- 15:00 — Last cell ping  
+- 15:35 — Backpack found by hiker  
+- 16:10 — Local dog reacts near ravine  
+- 17:05 — First responders arrive  
+
+## Evidence
+- No signs of struggle  
+- Cell phone missing  
+- Single set of tracks  
+
+## Suspects
+- John Farris (ex-boyfriend)  
+- Marla Hoyt (estranged sister)  
+- Unknown "man in red pickup"  
+
+## Theories
+- Open-ended

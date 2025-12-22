@@ -1,0 +1,13 @@
+{
+    "filename": "your_filename_here.txt",
+    "title": "Case Title Here",
+    "type": "cipher | cold_case | pattern | timeline | unknown",
+    "tags": [
+        "tag1",
+        "tag2",
+        "tag3"
+    ],
+    "date_uploaded": "YYYY-MM-DD",
+    "status": "open | closed | unsolved | unknown",
+    "summary": "Brief summary of the case, mystery, or file content. Keep it under 300 characters."
+}

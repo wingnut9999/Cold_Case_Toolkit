@@ -1,0 +1,15 @@
+# Pattern Data Template
+
+## Context
+Analyzing missing persons in County X, 1995–2005
+
+## Entries
+- 1996-07-11: M, 27
+- 1997-07-10: F, 31
+- 1999-07-09: M, 34
+- 2001-07-08: F, 30
+- 2003-07-07: M, 26
+
+## Questions
+- Is there a numerical or date-based pattern?
+- Do victims share a trait or profile?

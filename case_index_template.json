@@ -1,0 +1,35 @@
+{
+  "description": "Index of cold cases for a defined region or dataset.",
+  "fields": [
+    {
+      "field": "victim",
+      "type": "string",
+      "required": true,
+      "description": "Full name of the victim, or identifier (e.g., Jane Doe) if unknown."
+    },
+    {
+      "field": "date",
+      "type": "string",
+      "required": true,
+      "description": "Date of crime or body discovery, in human-readable format."
+    },
+    {
+      "field": "state",
+      "type": "string",
+      "required": true,
+      "description": "U.S. state where the case occurred."
+    },
+    {
+      "field": "county",
+      "type": "string",
+      "required": true,
+      "description": "County jurisdiction of the case. Use 'na' if not known."
+    },
+    {
+      "field": "city",
+      "type": "string",
+      "required": true,
+      "description": "City or town where the crime took place. Use 'na' if unknown."
+    }
+  ]
+}

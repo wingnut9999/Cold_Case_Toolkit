@@ -1,0 +1,9 @@
+ ---
+ case_id: {case_id}
+ title: {title}
+ jurisdiction: {jurisdiction}
+ date_of_incident: {date_of_incident}
++retrieval_date: {retrieval_date}
+ sources:
+ {sources}
+ ---

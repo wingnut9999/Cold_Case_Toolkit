@@ -1,0 +1,41 @@
+openapi: 3.1.0
+info:
+  title: Load Resource File from GitHub
+  version: 1.0.0
+servers:
+  - url: https://api.github.com
+paths:
+  /repos/{wingnut9999}/{Cipher-GPT-repo}/contents/{path}:
+    get:
+      summary: Load a resource file from GitHub
+      operationId: loadResourceFile
+      parameters:
+        - name: owner
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: repo
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: path
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Base64-encoded file
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  name:
+                    type: string
+                  content:
+                    type: string
+                  encoding:
+                    type: string

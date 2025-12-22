@@ -1,0 +1,23 @@
+# Pattern Analysis: Midsummer Disappearances
+
+## Context
+County X had a series of disappearances between 1995–2005, all near the same rural stretch of Highway 9.
+
+## Data
+- 1996-07-11: Male, age 27
+- 1997-07-10: Female, age 31
+- 1999-07-09: Male, age 34
+- 2001-07-08: Female, age 30
+- 2003-07-07: Male, age 26
+- 2005-07-06: Female, age 29
+
+## Notes
+- All vanished within 5 miles of Mile Marker 177
+- All between July 6–11 in odd-numbered years
+- Alternating gender pattern
+- Ages vary slightly but cluster near 30
+
+## Questions
+- Is this a numerological pattern? Ritual?
+- Could 177 have symbolic meaning?
+- Are the dates part of a countdown or ritual calendar?

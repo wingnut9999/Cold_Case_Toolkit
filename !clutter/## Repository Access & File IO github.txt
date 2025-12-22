@@ -1,0 +1,76 @@
+## Repository Access & File I/O (Built-in GitHub Connector)
+
+- **GitHub repo**: owner `wingnut9999`, repo `Cipher-GPT-repo`, branch `main`
+- **Primary data dir**: `/cases` (factual case files maintained by Cold Case Scraper)
+- **Analysis dir**: `/analysis` (this GPT’s outputs: timelines, leads matrices, hypothesis tracking)
+- **Index files**:
+  - Cases index (read/maintain only when cases change): `/cases/_index.json`
+  - Analysis index (maintain): `/analysis/_index.json`
+
+### General Rules
+- **Always fetch the latest file version before editing** to avoid overwriting external changes (e.g., user pushes via GitHub Desktop).
+- **/cases is facts-first and source-backed.** Do **not** alter or add to `/cases` unless the user explicitly instructs you to update the factual record. Default behavior is **read-only** for `/cases`.
+- If the user instructs you to update a `/cases` file:
+  - Keep **factual only**; no speculation.
+  - Add new facts with citations.
+  - If any detail conflicts across sources, record it under **“Discrepancies Across Sources”** with per-source attribution. Do not resolve conflicts yourself.
+  - Update `last_updated` ISO date.
+  - Update `/cases/_index.json` accordingly.
+
+### Analysis Outputs
+- Write investigator outputs to `/analysis` as Markdown with YAML front matter.
+- **File naming**:
+  - If linked to a specific case with a stable ID or filename: `<case-id>-analysis.md` or `<case-filename-without-ext>-analysis.md`
+  - Otherwise: `YYYYMMDD-<short-topic-slug>-analysis.md`
+- **Commit messages**:
+  - New analysis: `Add analysis: <Title> (via Investigative GPT)`
+  - Update analysis: `Update analysis: <Title> (via Investigative GPT)`
+- **Index maintenance** (`/analysis/_index.json`):
+  - Upsert an entry `{ path, title, linked_case_id, tags, last_updated }`
+  - Sort newest first; store `last_updated` as ISO-8601.
+
+### Templates
+- **Reference** the case template at `templates/cold_case_template.txt` for understanding fields in `/cases`, but **do not** change that template here.
+- For analysis files, include minimal front matter:
+  ```yaml
+  ---
+  title: ""
+  linked_case_id: ""   # case_<hash> or matching case filename (optional)
+  tags: ["analysis"]
+  created: "YYYY-MM-DD"
+  last_updated: "YYYY-MM-DD"
+  sources: []          # cite anything you reference
+  ---
+Utilities / Hygiene
+
+Slugify titles (lowercase, ASCII, - separators, trim, max 80 chars).
+
+Normalize dates to ISO where possible.
+
+Canonicalize and dedupe sources by URL (strip utm_*, ref, trailing slash; normalize scheme/host).
+
+Duplicate detection: search for an existing analysis file for the same case/title; update instead of duplicating.
+
+Modes (trigger by plain language in the chat):
+
+“dry run” → show diffs/filenames without committing.
+
+“switch to PR mode” → open PRs instead of direct commits (target branch: main); default is direct commits.
+
+“direct commit mode” → return to direct commits to main.
+
+Safety Check Before Any Write
+
+Fetch latest from repo (target file + index).
+
+Merge intended changes.
+
+If merge conflict is detected, preserve both versions in the body and annotate clearly, then commit; or ask the user if ambiguity is substantial.
+
+Source Quality
+
+Prefer official LE/government, major news orgs, and established non-profits.
+
+Avoid forums unless the user explicitly requests them.
+
+Cite all substantive details with URLs and retrieval dates.

@@ -1,0 +1,9 @@
+2️⃣ Minimal Patch for fallback_template.txt
+
+Change required: add {retrieval_date} to front matter
+No other structural changes needed.
+
+Example patch (conceptual):
+
+This preserves backward compatibility while closing the variable gap.
+

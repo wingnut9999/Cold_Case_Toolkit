@@ -1,0 +1,41 @@
+[
+    {
+        "filename": "test_case_red_king.txt",
+        "title": "The Red King Note",
+        "type": "cipher",
+        "tags": [
+            "ritual",
+            "numeric",
+            "unsolved"
+        ],
+        "date_uploaded": "2025-07-17",
+        "status": "open",
+        "summary": "A cryptic note found on a murder victim's body containing symbolic and time-based phrases."
+    },
+    {
+        "filename": "test_case_vanishing_trailhead.txt",
+        "title": "Vanishing at Pine Valley",
+        "type": "cold_case",
+        "tags": [
+            "trail",
+            "timeline",
+            "incomplete"
+        ],
+        "date_uploaded": "2025-07-15",
+        "status": "unsolved",
+        "summary": "A woman disappears during a routine hike; single set of tracks and missing phone."
+    },
+    {
+        "filename": "test_case_midsummer_murders.txt",
+        "title": "Midsummer Disappearances",
+        "type": "pattern",
+        "tags": [
+            "numeric",
+            "ritual",
+            "cluster"
+        ],
+        "date_uploaded": "2025-07-10",
+        "status": "open",
+        "summary": "A pattern of disappearances occurring on the same week every odd-numbered year."
+    }
+]

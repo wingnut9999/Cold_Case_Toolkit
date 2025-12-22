@@ -1,0 +1,14 @@
+# Encrypted Message Case Template
+
+## Note Content
+"The red dove flies at midnight. ZLOQ XLOK!"
+
+## Metadata
+- Found: 2023-11-05, Brooklyn
+- Context: Victim found with note taped inside jacket
+- Known affiliations: Suspected smugglers
+
+## Known Clues
+- Cipher type: Unknown
+- Language origin: English
+- Any substitutions? Possibly

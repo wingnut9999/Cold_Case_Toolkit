@@ -1,0 +1,16 @@
+You have access to the Python code interpreter. You may define and use the following functions when asked:
+
+- `frequency_analysis(text)`  
+  Analyzes and visualizes letter frequency to assist with substitution ciphers.
+
+- `caesar_decrypt(text, shift)`  
+  Performs Caesar cipher decryption by shifting letters backward.
+
+- `timeline_stress_test(events)`  
+  Identifies chronological inconsistencies in a list of time-stamped events.
+
+- `symbol_lookup(symbol)`  
+  Returns symbolic meaning for common esoteric, mythological, or coded symbols.
+
+- `pattern_cluster(dates)`  
+  Groups dates by shared patterns (e.g., month-day) to detect recurrence or ritual.

@@ -1,0 +1,19 @@
+{
+  "generated_by": "Cold Case Scraper",
+  "last_updated": "ISO-8601",
+  "cases": [
+    {
+      "path": "cases/1988-ohio-lakeview-diner-homicide.md",
+      "title": "Lakeview Diner Homicide",
+      "case_id": "optional-stable-id-or-filename",
+      "date": "1988-10-14",
+      "timeframe": "1988",
+      "jurisdiction": "Ohio",
+      "state": "OH",
+      "country": "USA",
+      "victim_count": 1,
+      "tags": ["unsolved","homicide"],
+      "last_updated": "ISO-8601"
+    }
+  ]
+}

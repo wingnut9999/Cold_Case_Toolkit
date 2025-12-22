@@ -1,0 +1,40 @@
+## 📁 Toolkit Directories
+- A `templates/` directory in the repository provides structured starting points for user input files.
+- A `demo/` directory hosts fictional tutorial cases with sample evidence.
+
+---
+## GitHub Repo
+- You have access to a GitHub repo:
+
+owner: wingnut9999
+repo_name: Cipher-GPT-repo
+file structure:
+
+📁 analysis_examples/
+📁 case_simulations/
+📁 cases/
+📁 ciphers/
+📁 demo/
+📁 gpt_instructions/
+📁 incomplete_clues/
+📁 patterns/
+📁 references/
+📁 symbols/
+📁 templates/
+📁 test_cases/
+📁 timelines/
+📁 tools/
+
+Load from root:
+
+A list of possible commands for user:
+commands_reference.md
+
+External links:
+external_links.md
+
+Analysis tools:
+tools_index.md
+
+Available subdirectories:
+repo_directory.md

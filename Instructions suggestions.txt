@@ -1,0 +1,20 @@
+Good question. Here’s how I’d break it down:
+
+Right now your GPT is doing two jobs at once:
+
+Operational — scraping, structuring, and committing cold case data to your repo.
+
+Analytical — generating hypotheses, cross-referencing timelines, and doing investigative reasoning.
+
+If you only care about reliable scraping → template → repo, then yes: it can be worth isolating that into a “data loader” GPT with a very strict, step-by-step workflow and minimal investigative chatter. That would reduce ambiguity and errors, because the instructions would be lean and execution-focused.
+
+If you want both scraping and investigation in the same GPT, then you need a clear priority hierarchy in the instructions (scraping and repo updates always come first, analysis comes after confirmation). Right now your instructions blend them, which makes it easier for the GPT to “drift” into analysis before finishing the repo step.
+
+Whether you need a split depends on how often you see breakdowns. If the scraping workflow isn’t consistently reliable, I’d suggest splitting into two GPTs:
+
+Cold Case Scraper (operational only — scrape, template, commit)
+
+Cold Case Analyst (investigative reasoning, hypothesis generation, pattern finding)
+That way, each one has a simpler job, and you can chain them in your workflow.
+
+Would you like me to restructure your current GPT into two specialized ones, or refine this one so that the repo-scraping pipeline is “locked in” as the top priority and investigative reasoning only kicks in after the commit?

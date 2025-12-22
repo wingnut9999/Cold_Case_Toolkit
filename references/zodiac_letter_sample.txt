@@ -1,0 +1,10 @@
+# Zodiac Killer Cipher Sample
+
+"I LIKE KILLING PEOPLE BECAUSE IT IS SO MUCH FUN..."
+
+Decoded from 408-symbol cipher using homophonic substitution.
+
+Tips:
+- Look for symbol pairs
+- Common English letters: E, T, A, O, I
+- Try frequency analysis on blocks

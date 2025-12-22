@@ -1,0 +1,59 @@
+---
+case_id: ""
+title: ""
+status: "unsolved"
+jurisdiction: ""
+state: ""
+country: "USA"
+victim_count: 1
+date: ""           # YYYY-MM-DD if known, else empty
+timeframe: ""      # e.g., "1983", "Late Oct 1992"
+location: ""       # city/neighborhood/landmark
+sources:
+  - url: ""
+    outlet: ""
+    published: ""   # ISO date if available
+    retrieved: ""   # ISO date
+tags: []
+last_updated: ""    # ISO date
+scraper: "Cold Case Scraper"
+---
+
+## Victim(s)
+- Name: 
+- Age: 
+- Notes: 
+
+## Summary
+<!-- Concise factual overview of circumstances. No speculation. -->
+
+## Circumstances
+- Last seen: 
+- Found: 
+- Key details: 
+
+## Persons of Interest / Suspects
+- Name/Role:
+- Status:
+- Source(s):
+
+## Evidence Mentioned
+- Item/Type:
+- Description:
+- Source(s):
+
+## Discrepancies Across Sources
+- Point of conflict:
+  - Source A: 
+  - Source B: 
+
+## Media References
+- Outlet / Program / Date:
+- Link:
+
+## Contacts (Official)
+- Agency:
+- Case #:
+- Phone/Email:
+- Tip line:
+

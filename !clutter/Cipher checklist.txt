@@ -1,0 +1,37 @@
+Absolutely — here’s your **CipherTrace Build Checklist** converted into clean markdown format:
+
+---
+
+# ✅ CipherTrace Build Checklist
+
+## ✔️ Completed
+
+* [x] Create a public GitHub repo for CipherTrace resources
+* [x] Build GPT instructions for multi-discipline mystery analysis
+* [x] Create and upload case templates: cipher, cold case, pattern
+* [x] Set up GPT Builder with GitHub access, code interpreter, browsing
+* [x] Create test cases for each discipline
+* [x] Generate and upload reference files (morse, vigenere, etc.)
+* [x] Create zip of reference files for local upload
+* [x] Create Python tools for GPT (frequency, Caesar, timeline, symbols)
+* [x] Create zip of `.py` tools for GitHub `tools/` directory
+
+---
+
+## 🟡 Optional / In Progress
+
+* [ ] Add `tools_index.md` with descriptions and usage examples
+* [ ] Create `external_links.md` with curated open-source resources
+* [ ] Build `commands_reference.md` to document soft GPT commands
+* [ ] Create `case_simulations/` folder with walkthroughs and solved cases
+* [ ] Add `common_cipher_failures.md` guide
+* [ ] Add `pattern_analysis_examples.csv` with dates, clusters, etc.
+* [ ] Create `cold_case_guidelines.md` with standard logic & suspect flags
+* [ ] Add `incomplete_clues/` folder for partial or corrupted GPT prompts
+* [ ] Create `tools/` folder OpenAPI endpoint stubs for GPT Actions
+* [ ] Generate OpenAPI schema for a mock Symbol Lookup API
+* [ ] Set up GPT + Browsing to scrape and parse live symbol/glyph sources
+
+---
+
+Let me know if you want this turned into a file (e.g., `checklist.md`) for the repo!

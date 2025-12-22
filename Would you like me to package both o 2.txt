@@ -1,0 +1,32 @@
+Would you like me to package both of these “master blocks” (Scraper + Investigative) into a single Markdown file you can drop right into your repo under /templates/ as reference documentation? That way you always have the full instruction set version-controlled.
+
+You said:
+that's a great idea. I've done that in another project already, it's great reference material for myself and the gpt.
+ChatGPT said:
+
+Perfect 👌 That’ll give you a single source of truth for both GPTs’ “dialects” — and version-controlling it in /templates/ means you’ll always be able to roll back or compare changes.
+
+Here’s what I suggest:
+
+File path:
+
+/templates/gpt_instructions_master.md
+
+
+Contents: include both Cold Case Scraper and Investigative GPT master blocks (exactly as we just finalized). Add a short header so you know this is reference only, not something the GPTs will parse as a case/analysis file.
+
+Example top of file:
+
+# GPT Instruction Reference
+
+This file contains the full instruction sets for the two GPTs in the Cipher-GPT project:
+- Cold Case Scraper (data gathering, factual structuring)
+- Investigative GPT (analysis, hypotheses, reasoning)
+
+These are reference-only for you and the GPTs.  
+They are **not case files** and should not be modified as part of scraping/analysis workflows.
+
+
+Then paste the two full master blocks under that.
+
+Do you want me to build out the complete gpt_instructions_master.md for you now, with both blocks combined, so you can drop it straight into your repo?

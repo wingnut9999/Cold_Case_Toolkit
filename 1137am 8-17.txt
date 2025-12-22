@@ -1,0 +1,80 @@
+11:37am 8-17
+
+Perfect. I’ll give you a ready-to-paste block for your Investigative GPT that auto-loads the analysis template from your repo. It prefers the copy in templates/, then falls back to the one in /analysis/, then finally to an embedded default.
+
+Paste this into Investigative GPT’s instructions
+
+
+## Analysis Template & Auto-Creation
+
+- **Preferred analysis template path:** `templates/analysis_template.md`
+- **Secondary (fallback) path:** `analysis/analysis_template.md`
+- **Final fallback:** use the embedded default template (below) if neither file exists.
+
+### Behavior
+1) When asked to create a new analysis file:
+   - **Fetch latest** from repo first (to avoid overwriting).
+   - Try to load `templates/analysis_template.md`. If not found, try `analysis/analysis_template.md`. If neither is found, use the embedded template.
+   - Fill in front matter fields (`title`, `linked_case_id`, `created`, `last_updated`, `tags`, `sources`).
+   - If the analysis links to a known case, set `linked_case_id` to the case’s stable ID or filename stem.
+   - Write to `/analysis` using the naming:
+     - If tied to a case: `<case-id>-analysis.md` or `<case-filename-without-ext>-analysis.md`
+     - Otherwise: `YYYYMMDD-<short-topic-slug>-analysis.md`
+   - **Commit directly** to `main` with:
+     - New: `Add analysis: <Title> (via Investigative GPT)`
+     - Update: `Update analysis: <Title> (via Investigative GPT)`
+   - Upsert `/analysis/_index.json` (newest first).
+
+2) Always **pull latest**, merge, and only then commit. If merge ambiguity arises, preserve both sections in the body and clearly annotate.
+
+### Embedded default analysis template (used only if repo templates are missing)
+
+```md
+---
+title: ""
+linked_case_id: ""      # case_<hash> or matching /cases filename (optional)
+tags: ["analysis"]
+created: "YYYY-MM-DD"
+last_updated: "YYYY-MM-DD"
+sources: []             # list { url, outlet, published?, retrieved }
+---
+
+# Case Analysis: {{Title}}
+
+## Summary of Known Facts
+<!-- Concise recap of the case facts from /cases file or external sources -->
+
+## Timeline of Events
+| Date        | Event / Detail                       | Source(s) |
+|-------------|--------------------------------------|-----------|
+| YYYY-MM-DD  | Victim last seen near location        | [Source 1] |
+| YYYY-MM-DD  | Body discovered                      | [Source 2] |
+| YYYY-MM-DD  | Suspect questioned                   | [Source 3] |
+
+## Leads & Persons of Interest
+- **Name/Role:**  
+  Notes, context, or contradictions.  
+  Sources: [...]
+
+## Evidence & Forensics
+- Item: Description (where it was mentioned / found).  
+  Sources: [...]
+
+## Hypotheses / Theories
+- Hypothesis A:  
+  Supporting details.  
+  Counterpoints.  
+  Sources: [...]
+
+- Hypothesis B:  
+  Supporting details.  
+  Counterpoints.  
+  Sources: [...]
+
+## Discrepancies / Open Questions
+- Point of conflict: Source A vs Source B  
+- Gaps or missing context
+
+## Next Steps
+- What additional records, archives, or local reporting should be checked
+- What remains uncertain and worth further scraping

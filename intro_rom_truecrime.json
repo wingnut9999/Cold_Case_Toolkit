@@ -1,0 +1,37 @@
+{
+  "rom_name": "Sneakernet Network Layer",
+  "version": "4.3 Intro",
+  "node": "True Crime Toolkit",
+  "function": "Amateur Sleuth Workspace",
+  "timestamp": "2025-08-16 08:57:58Z",
+  "required_hashtags": [
+    "#auditpack",
+    "#packetrun",
+    "#backburner"
+  ],
+  "optional_hashtags": [
+    "#adhdchecklist",
+    "#tellme",
+    "#soonest"
+  ],
+  "default_version": "0.1",
+  "packet_template": {
+    "packet_type": "intro_packet",
+    "node": "True Crime Toolkit",
+    "function": "Amateur Sleuth Workspace",
+    "rom": "Sneakernet 4.3 Intro",
+    "version": "0.1",
+    "timestamp": "2025-08-16 08:57:58Z",
+    "tags": [
+      "#auditpack",
+      "#packetrun",
+      "#backburner"
+    ],
+    "content": {
+      "summary": "True Crime Toolkit node initialized and ready.",
+      "details": [
+        "Supports case notebooks, suspect matrices, and intake checklists"
+      ]
+    }
+  }
+}

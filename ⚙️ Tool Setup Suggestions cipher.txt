@@ -1,0 +1,29 @@
+⚙️ Tool Setup Suggestions (for GPT Builder Code Interpreter)
+frequency_analysis(text)
+
+symbol_lookup(symbol)
+
+timeline_stress_test(events[])
+
+pattern_cluster(data)
+
+caesar_decrypt(text, shift)
+
+vigenere_decrypt(text, key)
+
+Each of these can be built as internal functions using Python and added to the Actions list if needed.
+
+🔜 Next Steps
+✅ Copy this GPT Instructions block into GPT Builder
+
+✅ Set up repo: ciphertrace-gpt-resources
+
+⬇️ Add starter folders + templates
+
+📦 Upload a test case per domain (test_cases/ folder)
+
+🛠️ Add Actions (Python-based tools)
+
+🌐 Optional: list reference links (PDFs, txt, etc.) in references/
+
+Want me to generate sample test cases for each domain next (cipher, cold case, pattern)?

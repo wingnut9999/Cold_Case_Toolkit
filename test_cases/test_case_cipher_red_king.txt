@@ -1,0 +1,26 @@
+# Test Case: The Red King Note
+
+## Note Content
+"RED KING RISES AT TWILIGHT 17:13. SHIFT THREE. SEVEN STANDS ABOVE TWO."
+
+## Metadata
+- Found: 2021-04-14, Los Angeles apartment
+- Context: Note found clenched in victim's hand
+- Known affiliations: None confirmed
+- Victim: Evan R. Tate, age 41
+
+## Known Clues
+- Clock stopped at 17:13
+- No forced entry
+- Phone call placed at 17:12 to unknown number
+- "Shift Three" may imply Caesar-style shift
+- Phrase “Seven stands above two” may refer to:
+  - Playing cards
+  - Keyboard layout
+  - Elevator panels
+  - Numerical code
+
+## Questions
+- Who or what is the "Red King"?
+- Is 17:13 symbolic or literal?
+- Try decryption on "Red King" with Caesar shift of 3
