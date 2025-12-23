@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "last_updated": "2025-12-23",
+  "cases": [
+    {
+      "case_id": "template-000",
+      "title": "Template Placeholder",
+      "jurisdiction": "N/A",
+      "status": "template",
+      "file": "unknown-year-generic-template.md",
+      "sources": [],
+      "retrieval_date": "2025-12-23"
+    }
+  ]
+}
