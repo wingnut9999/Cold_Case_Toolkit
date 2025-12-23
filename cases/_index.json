@@ -10,6 +10,20 @@
       "file": "unknown-year-generic-template.md",
       "sources": [],
       "retrieval_date": "2025-12-23"
+    },
+    {
+      "case_id": "1988-CO-BacaCounty-Springfield-Jane-Doe",
+      "title": "Baca County Springfield Jane Doe (1988)",
+      "jurisdiction": "Colorado",
+      "status": "cold",
+      "file": "1988-CO-BacaCounty-Springfield-Jane-Doe.md",
+      "sources": [
+        "https://www.courttv.com/news/jane-doe-from-1988-colorado-homicide-case-has-been-identified/",
+        "https://www.denver7.com/news/local-news/jane-doe-from-1988-homicide-case-in-baca-county-has-been-identified",
+        "https://www.findagrave.com/memorial/33794204/jane-doe",
+        "https://www.9news.com/article/news/local/remains-of-woman-found-in-1988-identified/73-a215c460-27f2-4fc7-ba77-2fe2a5a6f59a"
+      ],
+      "retrieval_date": "2025-12-23"
     }
   ]
 }
