@@ -5,7 +5,7 @@ info:
 servers:
   - url: https://api.github.com
 paths:
-  /repos/{wingnut9999}/{Cipher-GPT-repo}/contents/{path}:
+  /repos/{owner}/{repo}/contents/{path}:
     get:
       summary: Load a resource file from GitHub
       operationId: loadResourceFile
