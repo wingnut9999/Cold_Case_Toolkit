@@ -1,33 +1,4 @@
 {
-  "schema_version": "1.0",
-  "last_updated": "2025-12-23",
-  "cases": [
-    {
-      "case_id": "template-000",
-      "title": "Template Placeholder",
-      "jurisdiction": "N/A",
-      "status": "template",
-      "file": "unknown-year-generic-template.md",
-      "sources": [],
-      "retrieval_date": "2025-12-23"
-    },
-    {
-      "case_id": "1988-CO-BacaCounty-Springfield-Jane-Doe",
-      "title": "Baca County Springfield Jane Doe (1988)",
-      "jurisdiction": "Colorado",
-      "status": "cold",
-      "file": "1988-CO-BacaCounty-Springfield-Jane-Doe.md",
-      "sources": [
-        "https://www.courttv.com/news/jane-doe-from-1988-colorado-homicide-case-has-been-identified/",
-        "https://www.denver7.com/news/local-news/jane-doe-from-1988-homicide-case-in-baca-county-has-been-identified",
-        "https://www.findagrave.com/memorial/33794204/jane-doe",
-        "https://www.9news.com/article/news/local/remains-of-woman-found-in-1988-identified/73-a215c460-27f2-4fc7-ba77-2fe2a5a6f59a"
-      ],
-      "retrieval_date": "2025-12-23"
-    }
-  ]
-}
-{
   "cases": [
     {
       "case_id": "SD-1986-DA-001",
@@ -39,11 +10,7 @@
       "summary": "54-year-old man found shot and robbed at a roadside rest area in Day County, SD; case remains open and unsolved.",
       "source_url": "https://atg.sd.gov/OurOffice/Departments/DCI/UnresolvedCases.aspx",
       "retrieved": "2025-12-26"
-    }
-  ]
-}
-{
-  "cases": [
+    },
     {
       "case_id": "SD-1986-MH-002",
       "title": "Unsolved Homicide of Clara Olson",
@@ -65,28 +32,42 @@
       "summary": "29-year-old woman found deceased in a Spearfish motel room in 1987; suspicious death remains unsolved.",
       "source_url": "https://atg.sd.gov/OurOffice/Departments/DCI/UnresolvedCases.aspx",
       "retrieved": "2025-12-26"
+    },
+    {
+      "case_id": "SD-1992-YA-004",
+      "title": "Unsolved Homicide of Tammy Haas",
+      "jurisdiction": "Yankton County, South Dakota / Crofton, Nebraska",
+      "year": 1992,
+      "status": "Unsolved",
+      "victim_name": "Tammy Haas",
+      "summary": "19-year-old woman last seen in Crofton, NE, found dead days later in a ravine; homicide remains unsolved.",
+      "source_url": "https://atg.sd.gov/OurOffice/Departments/DCI/UnresolvedCases.aspx",
+      "retrieved": "2025-12-26"
+    },
+    {
+      "case_id": "SD-1993-BR-005",
+      "title": "Unsolved Homicide of Monica Wickre",
+      "jurisdiction": "Brown County, South Dakota",
+      "year": 1993,
+      "status": "Unsolved",
+      "victim_name": "Monica Lynn Wickre",
+      "summary": "42-year-old woman from Aberdeen found dead in the James River; foul play suspected, no arrests made.",
+      "source_url": "https://atg.sd.gov/OurOffice/Departments/DCI/UnresolvedCases.aspx",
+      "retrieved": "2025-12-26"
+    },
+    {
+      "case_id": "1988-CO-BacaCounty-Springfield-Jane-Doe",
+      "title": "Baca County Springfield Jane Doe (1988)",
+      "jurisdiction": "Colorado",
+      "status": "cold",
+      "file": "1988-CO-BacaCounty-Springfield-Jane-Doe.md",
+      "sources": [
+        "https://www.courttv.com/news/jane-doe-from-1988-colorado-homicide-case-has-been-identified/",
+        "https://www.denver7.com/news/local-news/jane-doe-from-1988-homicide-case-in-baca-county-has-been-identified",
+        "https://www.findagrave.com/memorial/33794204/jane-doe",
+        "https://www.9news.com/article/news/local/remains-of-woman-found-in-1988-identified/73-a215c460-27f2-4fc7-ba77-2fe2a5a6f59a"
+      ],
+      "retrieval_date": "2025-12-23"
     }
   ]
-}
-{
-  "case_id": "SD-1992-YA-004",
-  "title": "Unsolved Homicide of Tammy Haas",
-  "jurisdiction": "Yankton County, South Dakota / Crofton, Nebraska",
-  "year": 1992,
-  "status": "Unsolved",
-  "victim_name": "Tammy Haas",
-  "summary": "19-year-old woman last seen in Crofton, NE, found dead days later in a ravine; homicide remains unsolved.",
-  "source_url": "https://atg.sd.gov/OurOffice/Departments/DCI/UnresolvedCases.aspx",
-  "retrieved": "2025-12-26"
-},
-{
-  "case_id": "SD-1993-BR-005",
-  "title": "Unsolved Homicide of Monica Wickre",
-  "jurisdiction": "Brown County, South Dakota",
-  "year": 1993,
-  "status": "Unsolved",
-  "victim_name": "Monica Lynn Wickre",
-  "summary": "42-year-old woman from Aberdeen found dead in the James River; foul play suspected, no arrests made.",
-  "source_url": "https://atg.sd.gov/OurOffice/Departments/DCI/UnresolvedCases.aspx",
-  "retrieved": "2025-12-26"
 }
